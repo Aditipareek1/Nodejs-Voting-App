@@ -1,0 +1,21 @@
+Routes
+
+user authentication:
+ /signup: POST - create account
+ /login: POST
+
+voting:
+ /candidates: GET - get candidates
+ /vote: POST - casting vote
+
+vote counts:
+  /vote/counts - GET vote counts
+
+user profile:
+   /profile : GET - profile info
+   /profile/password: PUT - Change password
+
+Admin candidates Manage
+    /candidates: POST - add candidates
+    /candidates/candidateID : PUT - update an existing candidate
+    /candidates/candidateID : DELETE - delete a candidate from the list
